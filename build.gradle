@@ -1,7 +1,7 @@
 buildscript {
     //ext用于定义动态属性
     ext {
-        springBootVersion = '2.1.2.RELEASE'
+        springBootVersion = '2.0.3.RELEASE'
     }
     
     //自定义Thymeleaf和Thymeleaf Layout Dialect的版本
@@ -70,7 +70,7 @@ dependencies {
 
     //引入thymeleaf-extras-springsecurity4依赖
     // https://mvnrepository.com/artifact/org.thymeleaf.extras/thymeleaf-extras-springsecurity4
-    compile group: 'org.thymeleaf.extras', name: 'thymeleaf-extras-springsecurity4', version: '3.0.4.RELEASE'
+    compile group: 'org.thymeleaf.extras', name: 'thymeleaf-extras-springsecurity4', version: '3.0.2.RELEASE'
 
 
 }
